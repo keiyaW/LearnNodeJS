@@ -1,6 +1,6 @@
-const app = require('express');
+const express = require('express');
 
-const router = app.Router;
+const router = express.Router();
 
 router.get('/tes', (req,res,next) => {
     res.send('Halo Tes GET');
